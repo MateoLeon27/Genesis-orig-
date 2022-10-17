@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Genesis Construction</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    />
+    <link rel=”stylesheet”
+    href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”/>
+    <script
+      src="https://kit.fontawesome.com/0bde2ce3df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/Empire.png" /></a>
+        <div class="company">Genesis Construction</div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="residential.html">Residential</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>About Us</h1>
+        <!-- <a href="" class="hero-btn">Visit us to learn more</a> -->
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="aboutt-us">
+      <div class="row">
+        <div class="aboutt-col">
+          <h1>Welcome to Genesis</h1>
+          <p>
+            Established in 2005, Genesis Construction Services has made it a
+            point to build their business and client base on the core values of
+            honesty, integrity and outstanding customer service. Specializing in
+            mostly Commercial development, Genesis has quickly become one of the
+            premier choices for owners and franchisees when building their
+            businesses. Throughout the years Genesis has been the contractor of
+            choice for many National franchises and private concept businesses.
+            We pride ourselves in making sure our projects are done right the
+            first time, every time. We look forward to being your contractor of
+            choice.
+          </p>
+          <a href="contact.html" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="aboutt-col">
+          <img src="images/pexmeet.jpeg" />
+        </div>
+      </div>
+
+      <!-- about us content -->
+    </section>
+
+    <!-- icons -->
+    <section class="contact">
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!-------Footer---->
+
+    <section class="footer">
+      <p>© Copyright 2018. Genesis Construction. All Rights Reserved.</p>
+    </section>
+
+    <!-- -------JavaScript for Toggle Menu -------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

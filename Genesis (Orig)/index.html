@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Genesis Construction</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+    />
+    <link rel=”stylesheet”
+    href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”/>
+    <script
+      src="https://kit.fontawesome.com/0bde2ce3df.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/Empire.png" /></a>
+        <div class="company">Genesis Construction</div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="residential.html">Residential</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box-home">
+        <h1>Genesis Construction Services</h1>
+        <p>
+          Specializing in Residential & Commercial development,<br />
+          Genesis has quickly become one of the premier choices for owners and
+          franchisees alike, when building their businesses.
+        </p>
+        <a href="about.html" class="hero-btn">Visit us to learn more</a>
+      </div>
+    </section>
+
+    <script>
+   
+    </script>
+
+    <!-- icons -->
+    <section class="contact">
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!-- ----- Projects ----- -->
+    <section class="projects">
+      <h1>Our Projects</h1>
+      <br />
+      <a href="residential.html" class="hero-btn red-btn">Residential</a>
+
+      <div class="row">
+        <div class="projects-col">
+          <a href="residential.html">
+            <img src="images/p1_a.jpg" />
+          </a>
+          <div class="layer"></div>
+        </div>
+        <div class="projects-col">
+          <a href="residential.html">
+            <img src="images/p1_b.jpg" />
+          </a>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----- Contact ----- -->
+    <section class="contact">
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!-------Footer---->
+
+    <section class="footer">
+      <p>© Copyright 2018. Genesis Construction. All Rights Reserved.</p>
+    </section>
+
+    <!-- -------JavaScript for Toggle Menu -------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
